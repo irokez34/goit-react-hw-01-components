@@ -1,4 +1,4 @@
-import css from './Statistics.css';
+import './Statistics.css';
 import getRandomHexColor  from "../randomColor";
  const Statistics = ({ title, stats }) => {
   const statiscticList = stats.map((stat) => (
