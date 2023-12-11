@@ -1,7 +1,7 @@
 import './FriendList.css';
 const FriendList = ({ friends }) => {
   const friendItem = friends.map(friend => (
-    <li className="item">
+    <li className="item" key= {friend.id}>
       <span className={friend.isOnline ? "status online" : "status offline"}></span>
       <img
         className="avatar"

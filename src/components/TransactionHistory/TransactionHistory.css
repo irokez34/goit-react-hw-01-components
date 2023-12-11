@@ -1,5 +1,22 @@
-.transaction-history 
-{
-  display: flex;
-  flex-direction: column;
+.transaction-history {
+  width: 500px;
+  margin: 0 auto ;
+  border-radius: 5px;
+  box-shadow: 1px 3px 3px rgba(43, 52, 214, 0.8);
+}
+thead th {
+  height: 30px;
+  background-color: skyblue;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+td {
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: skyblue;
 }
