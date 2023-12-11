@@ -1,0 +1,5 @@
+.transaction-history 
+{
+  display: flex;
+  flex-direction: column;
+}
